@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+body {
+ 
+    margin: 0;
+    padding: 0;
+
+    background-color: #1A7AE8;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Tektur', cursive, sans-serif;
+
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    filter: blur(0px);
+    background: rgba(9, 202, 236, 0.884);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+
+
+}
+
+
+.tituloGaia {
+    padding: 2rem;
+}
