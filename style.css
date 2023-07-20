@@ -18,6 +18,7 @@ body {
 }
 
 .container {
+    
     width: 90vw;
     height: 90vh;
     align-content: center;
@@ -39,3 +40,110 @@ body {
 .tituloGaia {
     padding: 2rem;
 }
+
+.tela_jogador {
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+.perfil_foto {
+    width: 40%;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    overflow: hidden;
+   margin: auto;
+   align-content: center;
+   text-align: center;
+   align-items: center;
+   
+  
+   
+}
+
+.perfil_foto img {
+    width: 16rem;
+    height: 16rem;
+    margin-top: 10rem;
+    border: 5px solid rgba(8, 186, 218, 0.753);
+    border-radius: 10px;
+}
+
+.status_jogador {
+    width: 60%;
+    height: 100%;
+    border: 1px solid rgb(7, 6, 6);
+
+}
+
+.menu_jogador {
+    display: flex;
+    width: 100%;
+    
+
+   
+   
+}
+
+.menu_jogador ul li {
+    list-style: none;
+    float: left;
+   
+
+  
+}
+
+
+.menu_jogador li {
+    display: inline-flex;
+position: relative;
+padding-top: 0.2rem;
+width: 33%;
+height: 20%;
+padding-left: 4rem;
+transition: all 1s;
+background-color: aqua;
+border-left: 1px solid #000000;
+
+}
+
+.menu_jogador ul {
+    padding-left: 1px;
+    width: 100%;
+    height: 120px;
+    display: inline-flex;
+    margin: auto;
+   
+
+    
+}
+
+.menu_jogador li {
+    color: rgb(4, 54, 219);
+    font-weight: 600;
+    border-bottom: 2px solid #0bd3eeb9;
+}
+
+.menu_jogador li:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: all 1s;
+    color: black;
+    font-weight: 600;
+
+}
+
+.inventario {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
+
+
