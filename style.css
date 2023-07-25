@@ -73,6 +73,18 @@ body {
     border: 5px solid rgba(8, 186, 218, 0.753);
     border-radius: 10px;
 }
+.dados_jogador {
+    display: block;
+    margin: 0;
+   
+  
+}
+
+.dados_jogador p {
+    margin-top: 0;
+    padding: 1px;
+    height: 0.6rem;
+}
 
 .status_jogador {
     width: 60%;
@@ -140,10 +152,13 @@ border-left: 1px solid #000000;
 
 .inventario {
     width: 100%;
-    height: 100%;
+    height: 95%;
     display: block;
     overflow: hidden;
+    padding: 1px;
+    border: 2px solid red;
    
+    
 
 }
 
@@ -153,10 +168,13 @@ a {
 
 
 .itens_jogador {
-     width: 6.8rem;
-    height: 6.8rem;
+    width: 5.8rem;
+    height: 5.8rem;
     float: left;
     background-color: aliceblue;
+    overflow: hidden;
+    margin: 4px;
+    
  
     border: 1px solid black;
 
@@ -176,4 +194,129 @@ a {
 .itens_jogador img:hover {
     width: 6.8rem;
     scale: 1.0;
+}
+
+.inventario ol {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+
+
+
+.Equipamentos  {
+    display: flex;
+margin-top: 1rem;
+width: 100%;
+height: 96%;
+border: 1px solid red;
+align-items: center;
+text-align: center;
+align-content: center;
+justify-content: center;
+background-color: rgba(87, 122, 187, 0.637);
+
+
+
+}
+
+
+.cont{
+    width: 700px;
+    height: 800;
+
+    
+}
+
+.cont {
+    display: flex;
+justify-content: center;
+  align-items: center;
+}
+
+.cont ul li {
+    list-style: none;
+}
+
+.cont ul {
+    padding: 50px;
+}
+
+.cont img {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 20rem;
+    margin: 10px;
+}
+
+.equipamento_jogador {
+    width:50px;
+    height:50px;
+    background-color: #1a7ae800;
+    padding: 20px;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.equipamento_jogador:hover {
+    transition: all 0.5s ease-in-out;
+    scale: 1.1;
+}
+
+
+.habilidades{
+    width: 100%;
+    height: 96%;
+   opacity: 20px;
+    background-color: #0bd3ee65;
+    margin-top: 20px;
+    
+}
+
+
+.habilidade_jogador{
+    text-decoration: none;
+    list-style: none;
+    text-align: start;
+   display: flex;
+   justify-content: flex-start;
+    
+}
+
+.img_habilidade {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+}
+
+.img_habilidade img{
+    width: 50px;
+    height: 50px;
+}
+
+.habilidade_jogador span{
+    font-size: 0.9rem;
+}
+
+.custo_habilidade {
+    font-weight: 600;
+    font-size: 0.8rem;
+
+}
+
+.habilidade_jogador:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.9s ease-in-out;
+    scale: 1.1;
+    background-color: aliceblue;
+  
 }
